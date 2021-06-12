@@ -56,3 +56,21 @@ Odoo is implemented by people who work for Companies. People are modelled as p
 
 # Inventory
 Create a new product. Configure the product type so that it is Stockable and not a consumable.
+
+# Tables:
+```
+select * from res_users;
+select * from res_groups;
+select * from res_company;
+select * from res_company_users_rel;
+select * from res_partner;
+select * from res_partner_title_id_seq;
+
+select * from sale_order
+select * from sale_order_line
+
+select * from product_product
+select * from product_template
+select * from product_supplierinfo
+select * from product_template
+```
